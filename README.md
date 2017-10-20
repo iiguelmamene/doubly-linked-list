@@ -1,0 +1,3 @@
+# doubly-linked-list
+This project is an implementation of a doubly linked list.
+This doubly-linked list has both a head and a tail pointer that point to the first and last node in the sequence, respectively. If the sequence is empty, the head and tail pointers are set to the null pointer. Each node in the sequence has a value of type ItemType, a previous pointer, and a next pointer. The next pointer links a node to the following node in the sequence, and the previous node links a node to the previous node in the sequence. Thus, the first node’s previous pointer and the last node’s next pointer are always set to the null pointer.
