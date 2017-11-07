@@ -55,9 +55,9 @@
 			return false; // pos cannot be greater than size
 		if (size() == 0 && pos == 0) // case of inserting to empty sequence
 		{
-			Node* p = new Node;
+			Node* p = new Node; // create new node
 			p->val = value; // set node's value to value
-			p->next = nullptr;
+			p->next = nullptr; // the next value is currently nonexistent
 			p->prev = nullptr; // this is only node right now, so no prev. and next node
 			head = p;
 			tail = p; // head and tail point to same node
