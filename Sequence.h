@@ -6,7 +6,7 @@ typedef std::string ItemType;
 
 class Sequence
 {
-public:
+public: // public methods, constructor, and destructor 
 	Sequence();
 	~Sequence();
 	Sequence(const Sequence& other);
@@ -28,9 +28,9 @@ private:
 		Node* next;
 		Node* prev;
 	};
-	Node* head;
-	Node* tail;
-	int m_size;
+	Node* head; // head pointer
+	Node* tail; // tail pointer
+	int m_size; // size of the linked list
 };
 int subsequence(const Sequence& seq1, const Sequence& seq2);
 void interleave(const Sequence& seq1, const Sequence& seq2, Sequence& result);
