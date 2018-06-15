@@ -6,6 +6,7 @@
 		head = nullptr;
 		tail = nullptr; // head and tail set to nullptr for empty sequence
 	}
+
 	Sequence::Sequence(const Sequence& other)
 	{
 		m_size = 0;
@@ -28,6 +29,7 @@
 		}
 		return *this; // this now holds what rhs held, return what this points to
 	}
+
 	Sequence::~Sequence()
 	{
 		Node* gr;
