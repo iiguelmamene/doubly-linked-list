@@ -41,14 +41,17 @@
 			gr = newn; // move on to next node
 		}
 	}
+
 	bool Sequence::empty() const
 	{
 		return size() == 0; // return whether or not size is equal to 0
 	}
+
 	int Sequence::size() const
 	{
 		return m_size; // return size of sequence
 	}
+
 	bool Sequence::insert(int pos, const ItemType& value)
 	{
 		if (pos < 0)
@@ -107,6 +110,7 @@
 		}
 		return false;
 	}
+
 	int Sequence::insert(const ItemType& value)
 	{
 		if (size() == 0)
