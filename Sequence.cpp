@@ -405,5 +405,3 @@
 		}
 		result = temp; // set result equal to temp
 	}
-
-	
