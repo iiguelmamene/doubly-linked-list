@@ -130,6 +130,7 @@
 		insert(i, value); // insert at smallest possible pos. the desired value
 		return i; // return position at which value was inserted
 	}
+
 	bool Sequence::erase(int pos)
 	{
 		if (pos < 0)     
@@ -180,6 +181,7 @@
 		}
 		return false;
 	}
+
 	int Sequence::remove(const ItemType& value)
 	{
 		Node* p = head;
@@ -202,6 +204,7 @@
 		}
 		return c; // return how many times a node is deleted
 	}
+
 	bool Sequence::get(int pos, ItemType& value) const
 	{
 		if (pos < 0)
@@ -225,6 +228,7 @@
 		value = p->val; // set value to val. at position pos.
 		return true;
 	}
+
 	bool Sequence::set(int pos, const ItemType& value)
 	{
 		if (pos < 0)
@@ -243,6 +247,7 @@
 		p->val = value; // set node at position pos.'s value to value
 		return true;
 	}
+
 	int Sequence::find(const ItemType& value) const
 	{
 		Node* p = head;
@@ -255,6 +260,7 @@
 		}
 		return -1; // return -1 is value not found
 	}
+
 	void Sequence::swap(Sequence& other)
 	{
 		Node* temph = head;       // swap pointers to head and tails of the sequences, as
