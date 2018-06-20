@@ -32,6 +32,7 @@ private:
 	Node* tail; // tail pointer
 	int m_size; // size of the linked list
 };
+
 int subsequence(const Sequence& seq1, const Sequence& seq2);
 void interleave(const Sequence& seq1, const Sequence& seq2, Sequence& result);
 
