@@ -1,5 +1,6 @@
 #include "Sequence.h"
 #include <iostream>
+
     Sequence::Sequence()
 	: m_size(0) // set size to 0
 	{
