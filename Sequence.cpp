@@ -43,6 +43,7 @@
 		}
 	}
 
+
 	bool Sequence::empty() const
 	{
 		return size() == 0; // return whether or not size is equal to 0
