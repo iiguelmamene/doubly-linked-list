@@ -2,7 +2,7 @@
 #include <iostream>
 
     Sequence::Sequence()
-	: m_size(0) // set size to 0
+	: m_size(0) // set the size to 0
 	{
 		head = nullptr;
 		tail = nullptr; // head and tail set to nullptr for empty sequence
