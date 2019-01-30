@@ -191,7 +191,7 @@
 
 		for (i; i < size(); i++)
 		{		
-			if (p->val == value) // loop until desire value is found
+			if (p->val == value) // loop until desired value is found
 			{
 				p = p->next; // move to next node before node is deleted so as to avoid accessing bad data
 				erase(i); // erase node at position at which desired value is found
