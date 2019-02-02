@@ -1,7 +1,6 @@
 #ifndef SEQUENCE_INCLUDED
 #define SEQUENCE_INCLUDED
 
-
 #include <string>
 typedef std::string ItemType;
 
