@@ -6,6 +6,7 @@
 	{
 		head = nullptr;
 		tail = nullptr; // head and tail set to nullptr for empty sequence
+		
 	}
 
 	Sequence::Sequence(const Sequence& other)
